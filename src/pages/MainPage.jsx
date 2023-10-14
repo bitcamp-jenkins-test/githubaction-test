@@ -32,7 +32,7 @@ export default function MainPage() {
     }
   };
 
-  const showAllPosts = () => {
+  
     setSelectedCategory('전체');
   };
 

@@ -44,7 +44,7 @@ export default function MainPage() {
       <CategoryButtonRow>
         <div>
     <CategoryButton onClick={showAllPosts}>전체 게시글</CategoryButton>
-    <CategoryButton onClick={() => setSelectedCategory('DIGITAL')}>디지털 기기</CategoryButton>
+    <CategoryButton onClick={() => setSelectedCategory('DIGITAL')}>디지털</CategoryButton>
     <CategoryButton onClick={() => setSelectedCategory('가구/인테리어')}>가구/인테리어</CategoryButton>
     <CategoryButton onClick={() => setSelectedCategory('의류')}>의류</CategoryButton>
     <CategoryButton onClick={() => setSelectedCategory('생활가전')}>생활가전</CategoryButton>

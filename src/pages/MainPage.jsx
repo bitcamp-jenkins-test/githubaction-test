@@ -9,10 +9,7 @@ export default function MainPage() {
   const [loading, setLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState('전체');
 
-  useEffect(() => {
-    async function fetchPosts() {
-      try {
-        const response = await axios.get('http://localhost:8888/api/posts/list');
+  wait axios.get('http://localhost:8888/api/posts/list');
         setPosts(response.data.result);
         setLoading(false);
       } catch (error) {
